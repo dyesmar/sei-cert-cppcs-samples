@@ -8,10 +8,11 @@ This repo contains unaltered\* copies of all sample code from the _rules_ outlin
 
 Sample source files are found within the various subdirectories of the `rules` directory:
 
-- `nc*.cc` are non-compliant code samples
-- `c*.cc` are compliant code samples
+- `nc*.cpp` are non-compliant code samples
+- `c*.cpp` are compliant code samples
+- `ex*.cpp` are exception code samples
 
-Code samples follow an origin 0 numbering scheme, _e.g._, the first non-compliant sample for a given rule is named `nc0.cc`, the second `nc1.cc`, and so forth. Code samples are numbered in the order they appear within the body of a rule. Occasionally, a sample is multipart, in which case its parts follow the form, `nc0-a.cc`, `nc0-b.cc`, and so on.
+Code samples follow an origin 0 numbering scheme, _e.g._, the first non-compliant sample for a given rule is named `nc0.cpp`, the second `nc1.cpp`, and so forth. Code samples are numbered in the order they appear within the body of a rule. Occasionally, a sample is multipart, in which case its parts follow the form, `nc0-a.cpp`, `nc0-b.cpp`, and so on.
 
 ## Legal statement
 
