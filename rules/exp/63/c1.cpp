@@ -1,0 +1,13 @@
+// EXP63-CPP: Compliant Solution
+#include <algorithm>
+#include <iostream>
+#include <vector>
+ 
+void f(std::vector<int> &c) {
+  auto e = std::remove(c.begin(), c.end(), 42);
+  for (auto i = c.begin(); i != c.end(); i++) {
+    if (i < e) {
+      std::cout << *i << std::endl;
+    }
+  }
+}
